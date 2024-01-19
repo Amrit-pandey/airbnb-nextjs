@@ -60,7 +60,7 @@ const Modal: React.FC<ModalProps> = ({
     }
 
     secendoryAction();
-  }, []);
+  }, [secendoryAction, disabled]);
 
   if (!isOpen) {
     return null;
